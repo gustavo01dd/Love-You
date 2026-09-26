@@ -2,15 +2,23 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
   <title>I love you &lt;3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,600&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <canvas id="canvas"></canvas>
 
-  <button id="musicButton" aria-label="Ativar música">▶ Te amo mor ❤️</button>
+  <button id="musicButton" class="start" aria-label="Tocar música">▶ Te amo mor ❤️</button>
 
+  <!-- letra.js guarda as frases e os tempos em que cada uma entra e sai -->
+  <script src="letra.js"></script>
   <script src="script.js"></script>
+  <!-- editor.js só aparece quando o site é aberto com ?editar no endereço -->
+  <script src="editor.js"></script>
 </body>
 </html>
