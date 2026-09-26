@@ -17,7 +17,7 @@
 
 window.LETRA = [
   { entra: 0.3,  sai: 6.6,   texto: "Só mesmo o tempo pode revelar" },  // frase 1
-  { entra: 7.3,  sai: 12.3,  texto: "O lado oculta das paixões" },  // frase 2
+  { entra: 7.3,  sai: 12.3,  texto: "O lado oculto das paixões" },  // frase 2
   { entra: 14.0, sai: 20.2,  texto: "O que se foi e o que não passará" },  // frase 3
   { entra: 21.0, sai: 26.9,  texto: "Inesquecíveis sensações" },  // frase 4
   { entra: 28.1, sai: 32.2,  texto: "Que sempre Vão ficar" },  // frase 5
